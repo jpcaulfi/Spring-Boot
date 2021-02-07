@@ -1,6 +1,6 @@
 # Spring-Boot
 
-Various projects I've built using Spring Boot.
+Various full-stack projects I've built using Spring Boot, React, and databases deployed on AWS.
 
 "Canopy" is a bidding platform I built for my team at Amazon.
 This application has been deployed onto AWS using Docker and can be viewed as a functioning web-page here:
