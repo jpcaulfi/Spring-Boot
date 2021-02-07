@@ -1,4 +1,4 @@
-# Spring-Boot
+# Spring-Boot-Full-Stacks
 
 Various full-stack projects I've built using Spring Boot, React, and databases deployed on AWS.
 
