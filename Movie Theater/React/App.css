@@ -1,0 +1,266 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.core-div {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.movie-img {
+  display: block;
+  max-width: 100%;
+  height: 210px;
+  width: 140px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 50px;
+}
+
+.main-header-div {
+  background-color: #cfcccc1c;
+  color: burlywood;
+  border: solid;
+  border-color: #ffffff;
+  border-width: 2px;
+  font-family: cursive;
+}
+
+.main-header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  vertical-align: middle;
+}
+
+.showtimes-header {
+  color: #ffffff;
+  margin-left: -12.6em;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-family: "Arial";
+  font-weight: 400;
+}
+
+.showtimes-caption {
+  color:burlywood;
+  margin-left: -14.5em;
+}
+
+.showtimes-table {
+  color: #ffffff;
+  margin: auto;
+}
+
+.table-row-image {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ffffff;
+}
+
+.subtable-title {
+  margin-top:20px;
+}
+
+.table-row-showtimes {
+  margin-top: 20px;
+}
+
+.title-record {
+  color:aqua;
+  font-weight:400;
+  padding-right: 50px;
+  font-size: 24px;
+  margin-right: auto;
+}
+
+.rating-caption {
+  color:#9b9b9b;
+  padding-right: 12px;
+  vertical-align: middle;
+}
+
+.rating-record {
+  font-weight: 500;
+  font-size: 24px;
+  vertical-align: middle;
+}
+
+.showtimes-button {
+  color:burlywood;
+  background-color: #282c34;
+}
+
+.seats-left-label {
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+.buy-tickets-container {
+  background-color: #282c34;
+  padding-top: 10em;
+  padding-bottom: 35em;
+}
+
+.buy-tickets-movie {
+  color: aqua;
+  font-size: 32px;
+}
+
+.buy-tickets-showtime {
+  color: aqua;
+  font-size: 28px;
+}
+
+.buy-tickets-header {
+  color: #888;
+  font-size: 24px;
+}
+
+.decrease-quantity {
+  font-size: 42px;
+  color: #ffffff;
+  padding-right: 15px;
+}
+
+.quantity-value {
+  font-size: 42px;
+  color: #ffffff;
+}
+
+.increase-quantity {
+  font-size: 42px;
+  color: #ffffff;
+  padding-left: 15px;
+}
+
+.buy-tickets-button-container {
+  padding-top: 3em;
+  padding-bottom: 2em;
+}
+
+.buy-tickets-button {
+  background-color: #282c34;
+  color: burlywood;
+}
+
+.buy-tickets-close {
+  color: burlywood;
+}
+
+.quantity-picker {
+  display: inline-block;
+  border:1px solid #dfdfdf;
+  border-radius: 3px;
+  vertical-align:middle;
+}
+.quantity-input:focus {
+  background: red;
+}
+
+.quantity-modifier,
+.quantity-display {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  outline: none;
+}
+
+.quantity-modifier {
+  height: 100%;
+  width: 3rem;
+  font-size: 1.5rem;
+  background: #282c34;
+  color: #888;
+  border: 0 solid #dbdbdb;
+  text-align: center;
+  cursor: pointer;
+}
+.quantity-modifier:hover {
+  background: #4b525f;
+  color: #ffffff;
+}
+
+.quantity-modifier:focus {
+  outline:0;
+}
+
+.left-modifier {
+  border-radius: 3px 0 0 3px;
+}
+
+.mod-disable {
+  color:#888;
+}
+
+.mod-disable:hover {
+  background-color: #4b525f !important;
+  color:#4b525f;
+}
+
+.right-modifier {
+  border-radius: 0 3px 3px 0;
+}
+
+.quantity-display {
+  width: 4rem;
+  padding: .5rem;
+  font-size: 1.5rem;
+  border: 0;
+  border-top: 0 solid #dbdbdb;
+  border-bottom: 0 solid #dbdbdb;
+  text-align: center;
+  background-color: rgba(0, 255, 255, 0.226);
+  color: #ffffff
+}
+
+.confirmation-header {
+  margin-bottom: 50px;
+}
+
+.confirmation-quantity {
+  color: burlywood;
+  font-size: 28px;
+}
+
+.confirmation-tagline{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}

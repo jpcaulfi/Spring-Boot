@@ -1,0 +1,122 @@
+:root {
+    --core-font: cursive;
+}
+
+.core-div {
+    margin: auto;
+    text-align: center;
+}
+
+.drivers-header {
+    font-family: var(--core-font);
+    margin: auto;
+}
+
+.routes-at-risk-header {
+    font-family: var(--core-font);
+}
+
+.drivers-table {
+    border: solid;
+    border-color: #c04600;
+    border-width: 2px;
+    font-family: var(--core-font);
+    margin: auto;
+    padding: 4px;
+    min-width: 120px;
+}
+
+.drivers-table tr:nth-child(even) {
+    background-color: #c0460031;
+}
+
+.drivers-data:nth-child(n+11){
+    display: none;
+  }
+
+.routes-at-risk-table {
+    border: solid;
+    border-color: #00c066;
+    border-width: 2px;
+    font-family: var(--core-font);
+    margin: auto;
+    padding: 4px;
+    min-width: 120px;
+}
+
+.routes-at-risk-table tr:nth-child(even) {
+    background-color: #00c06665;
+}
+
+.routes-at-risk-data:nth-child(n+7) {
+    display: none;
+}
+
+.routes-at-risk-container {
+    margin-top: 6px;
+    margin-bottom: 24px;
+    display: inline-block;
+}
+
+.routes-at-risk-button {
+    background-color: #00c066;
+    height: 40px;
+    width: 120px;
+    float: right;
+    margin-left: 15px;
+    font-family: var(--core-font);
+}
+
+.routes-at-risk-button-content:hover, .routes-at-risk-button-content:visited, .routes-at-risk-button-content:link, .routes-at-risk-button-content:active  {
+    background-color: transparent;
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.see-all-container {
+    margin-top: 6px;
+    margin-bottom: 24px;
+    display: inline-block;
+}
+
+.see-all-button {
+    background-color: #c046008f;
+    height: 36px;
+    width: 72px;
+    margin-left: 5px;
+    font-family: var(--core-font);
+}
+
+.see-all-button-content:hover, .see-all-button-content:visited, .see-all-button-content:link, .see-all-button-content:active  {
+    background-color: transparent;
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.back-container {
+    margin-top: 6px;
+    margin-bottom: 24px;
+    display: inline-block;
+}
+
+.back-button {
+    background-color: #c046008f;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: left;
+    margin-right: 5px;
+    font-family: var(--core-font);
+}
+
+.back-button-content {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.back-button-content:hover, .back-button-content:visited, .back-button-content:link, .back-button-content:active  {
+    background-color: transparent;
+    text-decoration: none;
+    color:#ffffff;
+}
